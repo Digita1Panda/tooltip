@@ -14,7 +14,7 @@ body {
     font-family: sans-serif;
 }
 
-#container {
+.container {
     position: relative;
     padding: 7px;
     font-size: 25px;
@@ -22,7 +22,7 @@ body {
     cursor: pointer;
 }
 
-#tooltip-content {
+.tooltip-content {
     position: absolute;
     left: 50%;
     top: 0;
@@ -37,7 +37,7 @@ body {
     transition: opacity 500ms ease;
 }
 
-#tooltip-content::before {
+.tooltip-content::before {
     content: "";
     position: absolute;
     left: 50%;
@@ -47,7 +47,7 @@ body {
     border-color: #292929 #0000 #0000 #0000 ;
 }
 
-#container:hover #tooltip-content {
+.container:hover .tooltip-content {
     top: -130%;
     visibility: visible;
     opacity: 1;
