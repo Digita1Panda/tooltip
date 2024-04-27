@@ -7,6 +7,7 @@ Tooltip to help user with further information
 Some websites will require tooltip to provide users with more information and here is one that I have created.
 
 [GitHub page](https://github.com/Digita1Panda/tooltip)
+
 [Tooltip](https://digita1panda.github.io/tooltip/)
 
 ## Table of Contents
